@@ -1,0 +1,16 @@
+<h2>Добавить статью</h2>
+<form action="/addArticle" method="post">
+  <div>
+    <label>Заголовок:</label>
+    <input type="text" name="title" required>
+  </div>
+  <div>
+    <label>Контент:</label>
+    <textarea name="content" rows="5" required></textarea>
+  </div>
+  <div>
+    <label>Автор:</label>
+    <input type="text" name="author" required>
+  </div>
+  <button type="submit">Добавить</button>
+</form>
